@@ -2,7 +2,7 @@
 
 
 
-All URIs are relative to http://localhost:5221, except if the operation defines another base path.
+All URIs are relative to https://orbit.kuzium.com, except if the operation defines another base path.
 
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |

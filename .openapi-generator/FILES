@@ -53,5 +53,3 @@ lib/Model/UpdateOrderStatusRequest.php
 lib/Model/UpdateSalesOrderRequest.php
 lib/ObjectSerializer.php
 phpunit.xml.dist
-test/Api/MeApiTest.php
-test/Model/MeResponseTest.php
