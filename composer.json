@@ -1,6 +1,6 @@
 {
     "name": "kuzium/orbit-api-client",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "The stable, external-integration surface of the Orbit API. Authenticate with an API key (Settings > API Keys) via the X-Api-Key header.",
     "keywords": [
         "openapitools",
