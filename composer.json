@@ -1,5 +1,6 @@
 {
-    "version": "0.1.0",
+    "name": "kuzium/orbit-api-client",
+    "version": "0.2.0",
     "description": "The stable, external-integration surface of the Orbit API. Authenticate with an API key (Settings > API Keys) via the X-Api-Key header.",
     "keywords": [
         "openapitools",
@@ -10,12 +11,12 @@
         "rest",
         "api"
     ],
-    "homepage": "https://openapi-generator.tech",
-    "license": "unlicense",
+    "homepage": "https://github.com/Kuzium-Technologies/orbit-api-client-php",
+    "license": "MIT",
     "authors": [
         {
-            "name": "OpenAPI",
-            "homepage": "https://openapi-generator.tech"
+            "name": "Kuzium Technologies",
+            "homepage": "https://github.com/Kuzium-Technologies"
         }
     ],
     "require": {
@@ -31,9 +32,13 @@
         "friendsofphp/php-cs-fixer": "^3.5"
     },
     "autoload": {
-        "psr-4": { "KuziumOrbitClient\\" : "lib/" }
+        "psr-4": {
+            "KuziumOrbitClient\\": "lib/"
+        }
     },
     "autoload-dev": {
-        "psr-4": { "KuziumOrbitClient\\Test\\" : "test/" }
+        "psr-4": {
+            "KuziumOrbitClient\\Test\\": "test/"
+        }
     }
 }
